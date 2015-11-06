@@ -2,7 +2,7 @@
 function getConnection() {
     $dbhost='localhost';
     $dbuser='root'; 
-    $dbpass='Davisuf92'; 
+    $dbpass='*******'; 
     $dbname='users';
     $dbh = new PDO("mysql:host=$dbhost;dbname=$dbname", $dbuser, $dbpass);  
     $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);  
